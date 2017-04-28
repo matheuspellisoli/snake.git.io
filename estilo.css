@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+    margin: 0 auto;
+}
+header p{
+    width: 200px
+      display: flex;
+    flex-direction: column;
+    margin: 0 auto; 
+     font-family: Anton , Helvetica , Arial, sans-serif;
+    font-size: 20px;
+    text-align: right
+}
+
+.base{ 
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #513866;
+    margin: 0 auto;
+    margin-top: 10px;
+    background: #999392;
+}
+.cobra{
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+}
+#pts{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-family: Anton , Helvetica , Arial, sans-serif;
+    font-size: 20px;
+}
+#game{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto; 
+}
+footer{
+	text-align: center;
+	padding: 10px;
+	background-color: #4d4d4d;
+	color: #f1f1f1;
+}
+
+#instrucao{
+    display: flex;
+    flex-direction: column;
+    width: 100%;   
+}
+#instrucao ul li{
+    text-decoration: none;
+    list-style: none;    
+    width: 100%;
+   
+}
+#instrucao ul{
+   margin: 0px;
+    padding: 0px;
+}
+#instrucao div{
+    width: 100%;
+   text-align: center;
+    margin: 5px 0px;
+}
+.titulo{
+    margin: 0;
+    margin-top: 5px;
+    text-align: center;
+    font-family: Anton , Helvetica , Arial, sans-serif;
+    font-size: 20px;
+    color: #fff;
+    padding: 2px 0px;
+    width: 100%;
+    background:  #4d4d4d;
+    
+}
